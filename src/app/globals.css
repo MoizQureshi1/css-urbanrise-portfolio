@@ -1,0 +1,477 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* ########################################## HEADER SECTION ############################################## */
+
+.header{
+  background-color: #292524; 
+  color: #fff;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .head{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 12px;
+}
+.header .head .heading{
+  font-size: 30px;
+  line-height: 36px ;
+  font-weight: 700;
+  text-align: left;
+  padding-top: 4px;
+  padding-right: 32px;
+}
+.header .head .heading span{
+  color: #eab308;
+}
+.header .head .nav{
+  display: flex;
+}
+.header .head .nav li {
+  display: flex;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 30px;
+  gap: 16px;
+  font-weight: 600;
+  list-style-type:none ;
+}
+.header .head .nav li .atag{
+  text-decoration: none;
+  color: #fff;
+}
+.header .head .nav li .atag:hover{
+  text-decoration: underline; 
+}
+.header .head .nav .button{
+  margin-top: 20px;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #000;
+  border-radius: 4px;
+  text-decoration: none;
+  background-color:  #eab308;
+}
+.header .head .nav .button:hover{
+  background-color: #ca8a04;
+}
+
+/* ########################################### HERO SECTION ######################################## */
+
+.hero{
+  background-color: #292524;
+  color: #fff;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero .main-hero{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.hero .main-hero .image{
+  display: none;
+}
+.hero .main-hero .image-2{
+  margin-top: 40px;
+}
+.hero .main-hero .text-hero{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.hero .main-hero .text-hero h2{
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 700;
+  padding-bottom: 2px;
+}
+.hero .main-hero .text-hero p{
+  color: #d1d5db;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.button a .button-1{
+  border: 2px solid #ca8a04;
+  padding: 12px;
+  padding-left: 48px;
+  padding-right: 48px;
+  margin-bottom: 20px;
+  color: #000;
+  font-weight: 600;
+  background-color: #eab308;
+}
+.button a .button-1:hover{
+  background-color: #292524;
+  color: #fff;
+}
+.button a .button-2{
+  border: 2px solid #ca8a04;
+  padding: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 28px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  background-color: #292524;
+}
+.button a .button-2:hover{
+  background-color: #eab308;
+  color: #000;
+}
+.hero .main-hero .text-hero .button p{
+  color: #d1d5db;
+  margin-top: 30px;
+}
+.hero .main-hero .text-hero .button p .span{
+  color: #eab308;
+}
+
+/* ######################################## CUSTOMER SECTION ################################## */
+
+.customer{
+  background-color: #fff;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customer .main-customer{
+  padding-top: 64px;
+  padding-bottom: 128px;
+}
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+.head .text{
+  margin-left: 96px;
+  margin-right: 24px;
+}
+.head .text .line{
+  border: 4px solid #ca8a04;
+  margin-right: 430px;
+  margin-bottom: 24px;
+}
+.head .text h2{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #000;
+}
+.head .text p{
+  font-weight: 600;
+  color: #374151;
+}
+.head a .button-head{
+  border: 2px solid #fde047;
+  display: flex;
+  margin: 40px;
+  margin-right: 128px;
+  margin-left: 122px;
+  font-weight: 600;
+  padding: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  gap: 12px;
+  border-radius: 4px;
+  color: #ca8a04;
+}
+.head a .button-head:hover{
+  background-color: #fef08a;
+}
+.head a{
+  text-decoration: none;
+}
+.head a .button-head .head-icon{
+  color: #facc15;
+  font-size: 15px;
+}
+.list-item{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-left: 112px;
+  margin-right: 100px;
+}
+.list-item div image{
+  margin-top: 60px;
+  border-radius: 100%;
+  margin-bottom: 16px;
+  margin-right: 176px;
+}
+.list-item div p{
+  color: #4b5563;
+  padding-bottom: 16px;
+  font-weight: 600;
+  margin-right: 18px;
+}
+.list-item div .span-1{
+  color: #1f2937;
+  font-weight: 700;  
+}
+.list-item div .span-2{
+  color: #4b5563;
+  font-weight: 600;
+}
+
+/* ####################################### SHOWCASE SECTION ####################################### */
+
+.showcase{
+  background-color: #292524;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.showcase .head{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 96px;
+  color: #fff;
+}
+.showcase .head .text{
+  margin: 50px;
+  padding: 40px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.showcase .head .text .line{
+  border: 4px solid #ca8a04;
+  margin-right: 400px;
+  margin-bottom: 24px;
+}
+.showcase .head .text h2{
+  color: #fff;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 800;
+}
+.showcase .head .text p{
+  font-weight: 600;
+  color: #d1d5db;
+  padding-bottom: 30px;
+}
+.showcase .head .image{
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+/* ################################### FOOTER SECTION ################################## */
+
+.footer{
+  background-color: #fff;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+.footer .main-footer{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  padding-left: 48px;
+}
+.footer .main-footer .text{
+  padding-right: 56px;
+  padding-top: 10px;
+}
+.footer .main-footer .text h2{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000;
+}
+.footer .main-footer .text h2 .span{
+  color: #eab308;
+}
+.footer .main-footer .text p{
+  color: #4b5563;
+  font-weight: 600;
+  padding-top: 3px;
+}
+.footer .main-footer .links{
+  display: flex;
+  gap: 40px;
+  margin-top: 21px;
+  margin-right: 28px;
+  color: #6b7280;
+  font-weight: 600;
+}
+.footer .main-footer .links div{
+  padding-right: 32px;
+}
+.footer .main-footer .links div h2{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  padding-bottom: 10px;
+}
+.footer .main-footer .links div .atag{
+  text-decoration: none;
+  color: #6b7280;
+}
+.footer .main-footer .links div .atag:hover{
+  text-decoration: underline;
+}
+.footer .button-head{
+  display: flex;
+  flex-direction: column;
+  margin-left: 160px;
+}
+.footer .button-head .social{
+  display: flex;
+  gap: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+}
+.footer .button-head .social .button{
+  border:  2px solid #6b7280;
+  color: #000;
+  padding: 10px;
+  border-radius: 100%;
+}
+
+.footer .button-head .social .button:hover{
+  background-color: #d1d5db;
+}
+.footer .button-head p{
+  margin-left: 320px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4b5563;
+  font-weight: 700;
+}
+
+/* ################################### RESPONSIVE ###################################### */
+
+@media (min-width: 200px ) and (max-width: 800px){
+  .header .head{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    padding: 20px;
+  }
+  .header .head .heading{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+  }
+  .header .head .nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 70px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  .hero .main-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .hero .main-hero .text-hero .button .button-2{
+    margin-right: 20px;
+  }
+  .hero .main-hero .image-2{
+    display: none;
+  }
+  .hero .main-hero .image{
+    display: block;
+  }
+  .head{
+    display: flex;
+    flex-direction: column;
+  }
+  .head a .button-head{
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .head .text .line{
+    margin-right: 200px;
+  }
+  .customer .main-customer .list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .customer .main-customer .list-item div{
+    margin-bottom: 80px;
+  }
+  .customer .main-customer .list-item div .image{
+    margin-right: 30px;
+  }
+  .showcase .head {
+    margin-right: 0px;
+    align-items: center;
+  }
+  .showcase .head .text{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    align-items: center;
+  }
+  .showcase .head .text .line{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .showcase .head .text .button-2{
+    margin-left: 0px;
+  }
+  .showcase .head .image{
+    align-items: center;
+
+  }
+  .footer{
+    padding-left: 10px;
+  }
+  .footer .main-footer .links div{
+    padding-right: 0px;
+  }
+  .footer .main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .button-head{
+    margin-left: 0px;
+    align-items: center;
+  }
+  .footer .button-head .social{
+    margin-top: 20px;
+  }
+  .footer .button-head p{
+    margin-left: 0px;
+  }
+}

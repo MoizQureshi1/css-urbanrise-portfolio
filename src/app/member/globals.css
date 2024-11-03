@@ -1,0 +1,110 @@
+.member{
+    background-color: #fff;
+    color: #000;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.member .team-member{
+    padding-top: 40px;
+    padding-bottom: 69px;
+}
+.member .team-member .head .text{
+    margin-left: 96px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.member .team-member .head .text .line{
+    border: 4px solid #ca8a04;
+    padding-right: 100px;
+}
+.member .team-member .top-button{
+    margin-left: 80px;
+    padding-top: 8px;
+    background: #fff;
+}
+.member .team-member .top-button button{
+    color: #6b7280;
+    font-weight: 600;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 20px;
+    background-color: #fff;
+    border: hidden;
+    
+}
+.member .team-member .top-button button:hover{
+    color: #000;
+}
+.member .team-member .top-button button:focus{
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 12px;
+}
+.member .team-member .peoples{
+    margin-top: 80px;
+}
+.member .team-member .peoples .people{
+    display: flex;
+    justify-content: space-around;
+}
+.member .team-member .peoples .people div{
+    border: 2px solid #f3f4f6;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 16;
+    padding-right: 64px;
+    margin-bottom: 40px;
+}
+.member .team-member .peoples .people div:hover{
+    border: 2px solid #6b7280;
+    
+}
+.member .team-member .peoples .people .memberen{
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.member .team-member .peoples .people .image{
+    border-radius: 2px;
+}
+.member .team-member .peoples .people .head-span{
+    margin-left: 16px;
+}
+
+.member .team-member .peoples .people .span-1{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+.member .team-member .peoples .people .span-2{
+    color: #6b7280;
+    font-weight: 600;
+}
+
+/* ###################################### RESPONSIVE ######################################### */
+
+@media (min-width: 200px ) and (max-width: 800px){
+    .member .team-member .head .text{
+        margin-left: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .member .team-member .head a .button-head{
+        margin-left: 60px;
+    }
+    .member .team-member .top-button{
+        margin-left: 0px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    .member .team-member .peoples .people{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

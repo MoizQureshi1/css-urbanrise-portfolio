@@ -1,0 +1,104 @@
+.contact{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact .main-contact{
+    display: flex;
+    padding-right: 160px;
+    padding-bottom: 128px;
+    background-color: #292524;
+}
+.contact .main-contact .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 208px;
+    padding-top: 96px;
+    padding-left: 24px;
+    background-color: #292524;
+}
+.contact .main-contact .head form{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 32px;
+    margin-right: 16px;
+    width: 100%;
+    max-width: 512px;
+    margin-left: 300px;
+}
+.contact .main-contact .head form h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.contact .main-contact .head form div{
+    margin-bottom: 16px;
+}
+.contact .main-contact .head form div label{
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.contact .main-contact .head form div input,
+.contact .main-contact .head form div textarea{
+    border-width: 1px;
+    border: 1px solid  #d1d5db;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+}
+.contact .main-contact .head form button{
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #3b82f6;
+    columns: #fff;
+    padding: 8px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    border-radius: 2px;
+}
+.contact .main-contact .head form button:hover{
+    background-color:  #2563eb ;
+}
+.contact .main-contact .head form .pera{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #4b5563;
+}
+.contact .main-contact .head form .mail{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+.contact .main-contact .image-head{
+    padding-top: 96px;
+    padding-left: 12px;
+}
+.contact .main-contact .image-head .image{
+    border-radius: 4px;
+}
+
+/* ################################## RESPONSIVE ################################### */
+
+@media (min-width: 200px) and (max-width:800px){
+.contact .main-contact .image-head .image{
+    display: none;
+}
+.contact .main-contact .head form{
+    align-items: center;
+    margin-right: 0px;
+    width: 80%;
+    max-width: 300px;
+    margin-left: 0px;
+}
+}

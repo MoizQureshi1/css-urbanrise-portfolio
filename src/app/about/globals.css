@@ -1,0 +1,59 @@
+.about{
+    background-color: #fff;
+    color: #000;
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about .head{
+    padding-top: 96px;
+    margin-right: 70px;
+    margin-left: 96px;
+    margin-bottom: 80px;
+}
+.about .head .text .line{
+    border:4px solid #000;
+    margin-top: 64px;
+}
+.about .head .text h3{
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 700;
+}
+.about .head .text p{
+    font-weight: 600;
+}
+.about .head .text .box{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 64px;
+}
+.about .head .text .box div h2{
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+
+}
+.about .head .text .box div p{
+    color: #4b5563;
+}
+
+/* ################################# RESPONSIVE ################################### */
+
+@media (min-width: 200px ) and (max-width: 800px){
+    .about .head{
+        padding-top: 0px;
+        margin-right: 150px;
+        margin-left: 0x;
+        margin-bottom: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .about .head .text .line{
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+    .about .head .image{
+        margin-left: 70px;
+    }
+}
