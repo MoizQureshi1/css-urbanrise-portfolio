@@ -7,7 +7,7 @@ export default function Aboutpage (){
     return(
         <main className="about">
             <div className="head">
-                <Image src={fourpic} alt="fourPic" width={300} height={300} className="image"/>
+                <Image src={fourpic} alt="fourPic" width={400} height={400} className="image"/>
                 <div className="text">
                     <div className="line"></div>
                     <h3>Take a Glimpse Into Our<br /> Contraction Voyage</h3>
