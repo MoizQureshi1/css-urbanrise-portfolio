@@ -63,4 +63,7 @@
     .about .head .image{
         margin-left: 70px;
     }
+    .about .head .text .box{
+        margin-right: 0px;
+    }
 }
